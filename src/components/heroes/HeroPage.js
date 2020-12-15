@@ -31,7 +31,7 @@ export const HeroPage = ({history}) => {
         <div className="row mt-5">
             <div className="col-4">
                 <img 
-                    src={`../assets/heroes/${heroId}.jpg`}
+                    src={`/assets/heroes/${heroId}.jpg`}
                     className="img-thumbnail animate__animated animate__fadeInRightBig"
                     alt={ superhero }
                 />
